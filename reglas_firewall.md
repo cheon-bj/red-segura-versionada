@@ -14,7 +14,7 @@
 
 | LAN escolar | Internet | 443 | Permitir | Navegación segura |
 
-| IP administrativa | Servidor académico | 22 | Permitir | Administración remota autorizada |
+| IP administrativa | Servidor académico | 22 | Permitir | Acceso SSH permitido únicamente desde la IP administrativa |
 
 
 
@@ -39,7 +39,14 @@
 
 
 No se deben exponer servicios administrativos a cualquier origen. El acceso a servicios críticos debe limitarse únicamente a las redes o direcciones IP autorizadas.
+No se deben exponer servicios administrativos a cualquier origen.
 
+## Medidas adicionales
+
+- Permitir el acceso SSH únicamente desde la IP administrativa autorizada.
+- Bloquear cualquier intento de acceso SSH desde otras redes.
+- Revisar periódicamente los logs de autenticación para detectar intentos de acceso no autorizados.
+- Mantener actualizadas las reglas del firewall.
 
 
 

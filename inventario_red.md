@@ -28,3 +28,19 @@
 
 \- El equipo administrativo pertenece a una zona crítica.
 
+
+
+\##Propuesta de segmentación
+
+
+
+\- VLAN 10: Equipos administrativos.
+
+\- VLAN 20: Equipos académicos.
+
+\- VLAN 30: Cámaras y dispositivos IoT.
+
+\- VLAN 40: Red de invitados.
+
+\- Bloquear la comunicación directa entre la red de invitados y la red administrativa.
+
